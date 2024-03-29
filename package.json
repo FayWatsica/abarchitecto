@@ -1,0 +1,25 @@
+{
+  "name": "abarchitecto",
+  "version": "1.0.0",
+  "description": "A package that provides common repetitive evm-based chains functionalities",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-node -r dotenv/config test/index.t.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FayWatsica/abarchitecto.git"
+  },
+  "keywords": [
+    "eth",
+    "utils",
+    "velit"
+  ],
+  "author": "CristalHoeger",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "ts-node": "^10.9.1"
+  }
+}
